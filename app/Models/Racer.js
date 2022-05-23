@@ -1,0 +1,2 @@
+// racer class , racer position
+
