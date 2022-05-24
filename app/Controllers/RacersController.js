@@ -7,7 +7,7 @@ function draw(){
 
 
 
-export class RaceController{
+export class RacersController{
   constructor(){
     console.log('RaceController loaded')
     draw()

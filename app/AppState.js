@@ -4,8 +4,9 @@ import { isValidProp } from "./Utils/isValidProp.js"
 class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = []
-  racers = []
+  racers = [new Racer('James Not-James', 'The Capybaras'), new Racer('Cameron', 'Gamestop', false)]
 }
+
 
 export const ProxyState = new Proxy(new AppState(), {
   get(target, prop) {

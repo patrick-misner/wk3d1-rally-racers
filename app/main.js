@@ -1,9 +1,9 @@
 import { ValuesController } from "./Controllers/ValuesController.js";
-import { RaceController } from "./Controllers/RaceController.js"
+import { RacersController } from "./Controllers/RacersController.js"
 
 class App {
   // valuesController = new ValuesController();
-  raceController = new RaceController();
+  racersController = new RacersController();
 }
 
 window["app"] = new App();
